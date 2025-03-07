@@ -23,10 +23,10 @@ plugins:
 # Site settings
 url: 'https://mydomain.com'
 baseurl: ''
-title: 'My website'
-description: 'This is my new website'
+title: 'Toponymics live'
+description: 'Toponymic platform'
 permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+logo: "/assets/logo_header.png"
 
 # Pagination
 paginate: 5
@@ -34,27 +34,24 @@ paginate_path: blog/page:num
 
 # Header nav
 navigation_header:
-- title: Home
+- title: Главная
   url: /
-- title: About
+- title: О проекте
   url: /about/
-- title: Blog
-  url: /blog/
+- title: Платформа
+  url: /platform/
+- title: Картография и топонимика
+  url: /maps/
+- title: Фотогалерея
+  url: /gallery/
+- title: События
+  url: /events/
 
 # Footer nav
 navigation_footer:
 - title: Back to top
   url: "#top"
 
-# Collections
-collections:
-  posts:
-    title: Posts
-    output: true
-    description: "My thoughts and ideas"
-    feature_text: |
-      Welcome to my blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
 
 # Collection settings
 defaults:
