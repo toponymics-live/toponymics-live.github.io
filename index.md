@@ -1,5 +1,7 @@
 ---
 title: Топонимическая платформа: что это?
+feature_text: |Топонимическая платформа: что это?
+feature_image: "/assets/header.jpg"
 carousels:
   - images: 
     - image: /assets/header1.jpg
