@@ -1,7 +1,5 @@
 ---
-title: ToponymicsLive
-feature_text: |
-  ## Топонимическая платформа: что это?
+title: Топонимическая платформа
 carousels:
   - images: 
     - image: /assets/header1.jpg
