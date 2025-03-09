@@ -70,7 +70,7 @@
           transform: scale(1);
 }
 .carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__controls:nth-of-type({{ forloop.index }}) {
-  display: block;
+  display: none;
   opacity: 1;
 }
 .carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__indicators .carousel__indicator:nth-of-type({{ forloop.index }}) {
